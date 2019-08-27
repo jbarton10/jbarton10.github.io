@@ -1,12 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!-- JQuery Import -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Jamie Barton Portfolio</title>
 </head>
+
 <body>
-    <h1>THis is the html example!</h1>
+    <!-- Background Image  -->
+    <div id="bg-image"></div>
+    <!-- Main content of the page -->
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <div id="menu">
+                    <div class="category home">Home</div>
+                    <div class="category bio">Bio</div>
+                    <div class="category resume">Resume</div>
+                    <div class="category projects">Projects</div>
+                </div>
+                
+            </div>
+            <div class="col-6">
+                    <div id="content">
+                        <div id="homeContent">
+                            <div>
+                                <h1 id="introTitle">Jamie Barton</h1>
+                                <div id="underLine"></div>
+                                <div id="underTitle">
+                                    <p>Web Designer & Developer</p>
+                                </div>
+                                
+                            </div>
+                        
+
+                        <div id="introText">
+                            
+                            <p>Based in Tucson, Arizona</p>
+
+                            </div>
+                        </div>
+
+                        <div id="bioContent">
+                                <div id="bioTitle">
+                                        <h1>About me:</h1> 
+                                    </div>
+                           
+                                    
+                            <div id="bioText">
+                                    <img src="assets/images/profile_pic.jpg" alt="This is me!" id = "pPic">
+                                <p>
+                                       
+                                    Hello, my name is Jamie Barton and that's me right there!  I am 22 years old and I make websites! I was born in Tucson Arizona and am currently
+                                    living there now as well!  I have always had an intrest in computers sense a very young age, but in my late teen years
+                                    I decided that it was something I would want to do for a living!
+                                </p>
+                                <p>This lead me to start university.  From 2015 to 2017 I attended Northern Arizona University, than I moved back to Tucson to go to the
+                                    University of Arizona.  I am currently taking a break from college and trying to get some experience in the professional field.  That
+                                    is what lead me to web design and taking a program through U of A by Trilogy!
+                                </p>
+                            </div>
+
+                            
+                        </div>
+                        <div id="resumeContent">
+                            <div id="resumeTitle">
+                                <h1>Resume:</h1>
+                            </div>
+                            <div id="resumeLink">
+                                <a href="./assets/images/Jamie Barton Resume 3_1_2019.pdf">Click to see resume!</a>
+                            </div>
+                        </div>
+                        <div id="projectsContent">
+                            <div >
+                                <h1 id="projectsTitle">Sample Work:</h1>
+                                <div class="pTUnderText">
+                                    <p>(More on my Github page)</p>
+                                </div>
+                                
+                            </div>
+                            <div id="projectDiv">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="projectDiv">
+                                        <h4 class="project">Movie Finder</h4>
+                                        <p class="projectText">
+                                            This app allows the user to find any movie, through an external database
+                                            while bringing up the trailer for that movie from a different database.
+                                        </p>
+                                        <p><a href="https://jbarton10.github.io/Project-1-remastered/"class = "pLink">Click here!</a></p>
+                                    </div>
+                                    </div>
+                                    <div class="col">
+                                            <div class="projectDiv">
+                                        <h4 class="project">Nintendo Hangman</h4>
+                                        <p class="projectText">
+                                            This project combines two of my favorite things, Nintendo and coding! 
+                                            See if you can guess some of these Nintendo characters.
+                                        </p>
+                                        <p><a href="https://jbarton10.github.io/Hangman/"class = "pLink">Click here!</a></p>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                            <div class="projectDiv">
+                                        <h4 class="project">Scheduler</h4>
+                                        <p class="projectText">
+                                            The scheduler app shows examples of my code using an external database
+                                            Firebase, and updating the screen when times change.
+                                        </p>
+                                        <p><a href="https://jbarton10.github.io/Train-Scheduler/"class = "pLink">Click here!</a></p>
+                                    </div>
+                                </div>
+                                    <div class="col">
+                                            <div class="projectDiv">
+                                        <h4 class="project">Giftastic</h4>
+                                        <p class="projectText">
+                                            Giftastic is a project that shows some of my favorite things and queries gifs from
+                                            giphy.com for random gifs of them.  It also allows you get your own gifs!
+                                        </p>
+                                        <p><a href="https://jbarton10.github.io/GifTastic/" class = "pLink">Click here!</a></p>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col"
+                                    ><div class="projectDiv">
+                                        <h4 class="project">Hellcrawl</h4>
+                                        <p class="projectText">
+                                            Hellcrawl is a game that I worked on with two other people.  It supports account creation
+                                            backed with a score system all hosted through MySQL useing Sequelize.  I was in charge of 
+                                            animating the sprites and the battle logic.
+                                        </p>
+                                        <p><a href="https://github.com/aznchronos/Project-2" class = "pLink">Click here!</a></p>
+                                    </div>
+
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        
+
+                        </div>
+                    </div>
+                    <div class="col-3 contactInfo">
+                            <h3 class = "infoTitles">Email:</h3>
+                            <p class="info">bartonjamie109@gmail.com</p>
+
+                            <h3 class = "infoTitles">Phone Number:</h3>
+                            <p class="info">(520)-299-2581</p>
+
+                            <h3 class = "infoTitles">Linkdin Profile</h3>
+                            <p><a href="https://www.linkedin.com/in/jamie-barton-202530181/" >Click Here</a><p>
+
+                            <h3 class = "infoTitles">Github Profile</h3>
+                            <p><a href="https://github.com/jbarton10" >Click Here</a><p>
+                        </div>
+                </div>
+                
+            </div>
+    </div>
+
+
+    <script type="text/javascript" src="./assets/javascript/app.js"></script>
 </body>
+
 </html>

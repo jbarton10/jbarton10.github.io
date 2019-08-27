@@ -1,0 +1,121 @@
+/* Ever Present elements */
+.col-6{
+    margin-right:15px;
+}
+#bg-image{
+    background: url("./../images/bgPhoto.jpg") no-repeat;
+    background-size: cover;
+    /*Blur the background image */
+    filter: blur(8px);
+    height: 100vh;
+    width:100%;
+    /* Make it appear behind the content */
+    z-index: -1;
+    position: fixed;
+}
+.category{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    background: rgb(64, 44, 117);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:10px;
+    width:100%;
+    padding-left:15px;
+
+}
+.container{
+    z-index: 1;
+}
+#content{
+    background:lightgray;
+    width:100%;
+    padding:20px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    box-shadow: 5px 10px #888888;
+
+}
+#menu{
+    margin-top: 150px;
+}
+.contactInfo{
+    z-index: 1;
+    margin-top: 150px;
+    background: lightgray;
+    padding: 20px;
+    height:350px;
+    box-shadow: 5px 10px #888888;
+
+}
+.info{
+    color: rgb(64, 44, 117);
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.category:hover{
+    background:lightgrey;
+    color:rgb(64, 44, 117);
+}
+.category:active{
+    background: rgb(221, 198, 204);
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.infoTitles{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    font-size: 25px;
+}
+
+
+
+/* Home Elements */
+
+#homeContent{
+    background: lightgray;
+    
+}
+#underLine{
+    height:1px;
+    background:gray;
+    width:80%;
+   
+}
+#introTitle{
+    font-size: 60px;
+}
+#introText{
+    margin-bottom: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top:-15px;
+}
+#underTitle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:20px;
+}
+
+/* Project Elements */
+#pTUnderText{
+    color:lightgrey;
+}
+.projectDiv{
+    background:white;
+    padding:10px;
+    margin:10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Bio Elements */
+#bioContent{
+    position: relative;
+}
+#pPic{
+    height:120px;
+    width:120px;
+    border-radius: 50%;
+    float:left;
+    margin:5px; 
+}
+#bioText{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
